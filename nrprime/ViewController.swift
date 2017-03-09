@@ -82,7 +82,6 @@ class ViewController: UIViewController {
             imgView.image = img
             imgView.contentMode = UIViewContentMode.scaleAspectFill
             imgView.frame = view.frame
-            imgView.alpha = 0.4
             
             view.insertSubview(imgView, at: 0)
         }
